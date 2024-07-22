@@ -1,6 +1,6 @@
 # SONOFF Zigbee 3.0 USB Dongle Plus firmware upgrading
 
-This section contains a guidance and tools required to flash firmware to SONOFF [ZBDongle-E](https://itead.cc/product/zigbee-3-0-usb-dongle/) without a need of connecting a dongle to laptop and using tools like Flash Programmer 2.
+This section contains a guidance and tools required to flash firmware to SONOFF [ZBDongle-E](https://itead.cc/product/zigbee-3-0-usb-dongle/) (based on EFR32MG21 chip) without a need of connecting a dongle to laptop and using tools like Flash Programmer 2.
 
 The whole process was tested on a Raspberry Pi 4 running OSMC 2024.02-1 (based on Debian 11 "bullseye") alongside with zigbee2mqtt and Home Assistant, and should work on many recent Linux distributives as well.
 
@@ -13,6 +13,11 @@ Here is the original documentation that was used in order to verify and confirm 
 
 In particular, the [uartLog.py](uartLog.py) script in this repository was originally downloaded from https://sonoff.tech/wp-content/uploads/2023/02/Auto-enter-bootloader.zip and slightly adapted for use on Linux hosts.
 Original version of that script is here - [uartLog-original.py](uartLog-original.py).
+
+Alternative instructions from zigbee2mqtt:
+
+ * ZBDongle-E (EFR32MG21) - https://www.zigbee2mqtt.io/devices/ZBDongle-E.html
+ * ZBDongle-P (CC2652P) - https://www.zigbee2mqtt.io/guide/adapters/flashing/flashing_via_cc2538-bsl.html
 
 ## Required software
 
