@@ -42,6 +42,20 @@ You can use these sources to look for a firmware for your device:
 
 As a reference, the `ncp-uart-hw-v7.4.3.0-zbdonglee-115200.gbl` from https://github.com/darkxst/silabs-firmware-builder/raw/main/firmware_builds/zbdonglee/ncp-uart-hw-v7.4.3.0-zbdonglee-115200.gbl worked fine with ZBDongle-E and zigbee2mqtt v1.39.0 running with `ember` serial driver.
 
+Changelogs for upstream (Silicon Labs) firmware can be found here:
+
+ * https://www.silabs.com/developer-tools/zigbee-emberznet?tab=documentation
+
+For example:
+
+ * https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-7.4.4.0.pdf
+ * https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-7.4.5.0.pdf
+
+Same location can be used to look for other low-level docs, such as:
+
+ * https://www.silabs.com/documents/public/user-guides/ug101-uart-gateway-protocol-reference.pdf
+ * https://www.silabs.com/documents/public/user-guides/ug103-06-fundamentals-bootloading.pdf
+
 ## How to upload firmware
 
 1. Stop any software that interacts with SONOFF dongle via USB (like zigbee2mqtt and/or Home Assistant).
